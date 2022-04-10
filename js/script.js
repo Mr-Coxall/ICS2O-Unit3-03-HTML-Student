@@ -8,10 +8,10 @@
  */
 function calculate () {
   // input
-  const r = parseInt(document.getElementById('radius-of-circle').value)
+  const radius = parseInt(document.getElementById('radius-of-circle').value)
   // process
-  const volume = (4 / 3 * 3.14 * "radius-of-circle" ** 2)
+  const volume = (4 / 3 * 3.14 * radius ** 3)
 
   // output
-    "Volume is: " + volume + "cm^3 "
+    "Volume is: " + volume + " cm^3 "
 }
